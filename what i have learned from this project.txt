@@ -1,0 +1,18 @@
+1.date input type and using value to set default value for date.
+2.new Date() - Date Object in Javascript, along with .toStringIOS() - to get current date and time in string format
+3. String split("T") - convert a string into array with mentioned delimiter and can you string.split("T")[index] to access specify index 
+4.Setting Date max attribute to current date to disable all future date in calender.
+5. Math.abs(now - startDate) - absolute returnabsolute no. of milliseconds to positive decimal even if result negative.
+6. Calculate days, months and years
+
+	const diffInMs = Math.abs(now - startdate)
+	const msInDay  = 1000*60*60*24;
+	const msInMonth = msInDay * 30.44;
+	
+	const years = Math.floor(diffInMs / (msInDay * 365));
+	const months = Math.floor(diffInMs / msInMonth) % 12;
+	const days = Math.floor(diffInMs/ msInDay) % 30;
+
+	
+	
+  
