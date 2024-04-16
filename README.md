@@ -3,6 +3,8 @@
 
 The Age Calculator is a simple web-based tool that allows users to calculate their age based on their birthdate. It takes a user's birthdate as input and displays their age in years, months, and days. With a clean and intuitive interface, the Age Calculator is easy to use and provides accurate age calculations.
 
+Site is live at https://reninmohan.github.io/Age_Calculator/
+
 ![Age Calculator](./assets/age_calculator_screenshot.png)
 
 
